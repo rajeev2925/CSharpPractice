@@ -16,16 +16,17 @@ namespace sampleproject.collections
             list.Add("two");
             list.Add("three");
             list.Add("three");
-            List<string> list1 = new List<string>();
-            list1.Add("one");
-            list1.Add("two");
-            list1.Add("three");
             List<string> list2 = new List<string>();
             list2.Add("one");
             list2.Add("two");
             list2.Add("three");
-            list2.AddRange(list1);
+            list2.AddRange(list2);
             list2.Append("");
+            list2.Insert(1, "raj");
+            list2.Sort();
+           Console.WriteLine( "element:"+list2.ElementAt(0));
+          Console.WriteLine("equals "+list2.Equals(list2));
+            Console.WriteLine("to String :"+list2.ToString());
        
             foreach(string item in list2)
             {
