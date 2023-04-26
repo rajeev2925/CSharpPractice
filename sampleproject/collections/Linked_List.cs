@@ -15,6 +15,8 @@ namespace sampleproject.collections
             list.AddLast("naga");
             list.AddFirst("vinu");
             list.AddFirst("some");
+            list.Remove("NAGA");
+            list.ElementAt(0);
             Console.WriteLine("linked list data");
             foreach (string s in list)
             {
