@@ -9,15 +9,15 @@ namespace sampleproject
 {
     internal class Mainclass
     {
-       public static void  Main(String [] args)
+       public static void Main(String [] args)
         {
-            Array_List list = new Array_List();
-            list.list();
-            Linked_List linked_list = new Linked_List();
-            linked_list.L_List();  
-            
-            list_c clist=new list_c();
-            clist.list();   
-                }
+            Assignments assignments = new Assignments();
+            assignments.Hash_set();
+            assignments.Sorted_set();
+            assignments.Stacks();
+            assignments.Queues();
+            assignments.Dictionary_col();
+            assignments.SortedDictionary_col();
+        }
     }
 }
