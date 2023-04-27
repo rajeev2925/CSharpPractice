@@ -114,13 +114,8 @@ namespace sampleproject.collections
             {
                 Console.WriteLine(pair.Key + " " + pair.Value);
             }
-            keyValuePairs.ContainsKey(1);
-            keyValuePairs.ContainsValue("a");
-            keyValuePairs.Remove(1);
-            keyValuePairs.Count();
+
         }
-
-
         //===========================================================================================
 
     }
