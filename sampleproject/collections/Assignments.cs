@@ -25,6 +25,8 @@ namespace sampleproject.collections
             set.Count();
             set.First();
             set.Last();
+            
+            
         }
 
         //===========================================================================================
@@ -92,13 +94,13 @@ namespace sampleproject.collections
             {
                 Console.WriteLine(pair.Key + " " + pair.Value);
             }
-            //dict.ContainsKey(1);
-            //dict.ContainsValue("a");
-           // dict.Remove(1);
-            //dict.ElementAt(1);
-            //dict.Reverse();
-            //dict.Count();
-            //dict.First();
+            dict.ContainsKey(1);
+            dict.ContainsValue("a");
+            dict.Remove(1);
+            dict.ElementAt(1);
+            dict.Reverse();
+            dict.Count();
+            dict.First();
         }
 
         //===========================================================================================
@@ -112,10 +114,6 @@ namespace sampleproject.collections
             {
                 Console.WriteLine(pair.Key + " " + pair.Value);
             }
-            //keyValuePairs.ContainsKey(1);
-            //keyValuePairs.ContainsValue("a");
-           // keyValuePairs.Remove(1);
-            //keyValuePairs.Count();
 
         }
         //===========================================================================================
