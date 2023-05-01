@@ -22,7 +22,7 @@ namespace sampleproject.OOPs
         }
     }
     public class sss {
-        public static void Main()
+        public static void main()
         {
             rajeev r = new rajeev(2);
             rajeev.a=20;
