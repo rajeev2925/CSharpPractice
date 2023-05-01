@@ -10,7 +10,7 @@ namespace sampleproject
 {
     internal class Mainclass
     {
-       public static void Main(String [] args)
+       public static void main(String [] args)
         {   
             Gotoclass gotoclass = new Gotoclass();
             gotoclass.example();
