@@ -12,12 +12,11 @@ namespace sampleproject.OOPs
         public void add(int atm_pin)
         { 
             this.atm_pin= atm_pin;
-
         }
     }
     public class display
     {
-        public static void Main(string[] args)
+        public static void main(string[] args)
         {
             Encapsulation en=new Encapsulation();
             en.atm_pin = 3456;
